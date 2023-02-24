@@ -113,6 +113,10 @@ margin: 0 auto;
 margin-top: 30px;
 }
                          /* ADVANTAGES */
+.box{
+  padding-top: 94px;
+  padding-bottom: 0;
+}
 .advantages-title{
 font-weight: 700;
 font-size: var(--size);
