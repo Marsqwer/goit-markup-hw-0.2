@@ -9,6 +9,7 @@ box-sizing: inherit;
 body{
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
+color: #434455
 }
 :root{
  --IRIS:#4D5AE5;
@@ -54,13 +55,14 @@ section{
 }
                       /* HEADER-LOGO */
 .logo{
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.3;
+line-height: 1.33;
 letter-spacing: 0.03em;
-color: var(--IRIS);
+text-transform: uppercase;
+color: #4d5ae5;
 }
 .studio{
 color: var(--NAVY_BLUE);
