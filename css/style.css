@@ -56,19 +56,25 @@ section{
                       /* HEADER-LOGO */
 .logo{
 font-family: 'Raleway', sans-serif;
-font-style: normal;
+font-style: sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: var(--IRIS);
+}
+.link{
+  text-decoration: none
 }
 .studio{
-color: var(--NAVY_BLUE);
+color: #2e2f42 ;
+}
+.list{
+  list-style: none
 }
 .foot-studio{
- color: var(--CLOUD);
+ color:  #f4f4fd;
 }
                        /* HEADER-MENU */
 .header-link{
@@ -80,9 +86,11 @@ letter-spacing: 0.02em;
 /* NAVY BLUE */
 color: var(--NAVY_BLUE);
 }
-.header-link:hover,
+.header-link:hover{
+  color: #404bbf;
+}
 .header-link:focus{
-  color: var(--OCEAN);
+  color: #404bbf;
 }
 .header-studia{
   color: var(--OCEAN);
@@ -94,7 +102,7 @@ color: var(--NAVY_BLUE);
 .hero{
   padding-top: 200px;
   padding-bottom: 200px;
-  background: #2F303A;
+  background: #2e2f42 ;
 }
 .hero-title{
 font-family: 'Roboto';
@@ -104,7 +112,7 @@ font-size: 56px;
 line-height: 1.07;
 color: #FFFFFF;
 text-align: center;
-letter-spacing: 0.06em;
+letter-spacing: 0.02em;
 text-transform: uppercase;
 }
                            /* BUTTON */
@@ -112,16 +120,17 @@ text-transform: uppercase;
   width: 200px;
   height: 50px;
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+font-style: sans-serif;
+font-weight: 500;
 font-size: 16px;
-line-height: 1.88;
+line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
 justify-content: center;
-letter-spacing: 0.06em;
+letter-spacing: 0.04em;
 color: #FFFFFF;
+cursor: pointer;
 background: var(--IRIS);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -132,7 +141,17 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
                          /* ADVANTAGES */
-.box{
+.advantages-hero{
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--NAVY_BLUE);
+margin-bottom: 50px;
+text-transform: capitalize
+}
+.boxis{
   padding-top: 94px;
   padding-bottom: 0;
 }
@@ -160,20 +179,20 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--NAVY_BLUE);
 margin-bottom: 50px;
+text-transform: capitalize;
 }
                               /* TEAM */
 .team-title{
 font-weight: 500;
 font-size: 20px;
-line-height: 1.12;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--NAVY_BLUE);
 }
 .team-text{
-font-weight: 400;
 font-size: 16px;
-line-height: 1.15;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--SLATE);
@@ -183,7 +202,7 @@ color: var(--SLATE);
   margin-top: 20px;
 }
 footer{
-  background: #2F303A;
+  background: #2e2f42;
   padding-top: 60px;
   padding-bottom: 60px;
 }
