@@ -1,15 +1,7 @@
-html{
-box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-box-sizing: inherit;
-}
 body{
-font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
-color: #434455
+color: var(--SLATE);
+margin: 0;
 }
 :root{
  --IRIS:#4D5AE5;
@@ -22,9 +14,6 @@ color: #434455
  --CLOUD: #F4F4FD;
  --NAVY_BLUE_modal: rgba(46, 47, 66, 0.4);
  --GREY: rgba(46, 47, 66, 0.7);
-}
-p, h1, h2, h3, h4, h5, h6{
-  margin: 0;
 }
 ul, ol{
 margin: 0;
