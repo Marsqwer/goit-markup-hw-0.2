@@ -25,6 +25,19 @@ a{
 address{
   font-style: normal;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: 0;
+    }
 
                       /* HEADER-LOGO */
 .logo{
@@ -130,7 +143,7 @@ text-transform: capitalize
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.03em;
+letter-spacing: 0.02em;
 text-transform: uppercase;
 color: var(--NAVY_BLUE);
 }
