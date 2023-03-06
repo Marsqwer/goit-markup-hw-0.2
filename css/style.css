@@ -12,36 +12,12 @@ margin: 0;
  --LIGHT_SLATE: #8E8F99;
  --CORNFLOWER: #E7E9FC;
  --CLOUD: #F4F4FD;
+ --WHITTE: #FFFFFF;
+ --BORDER_COLOR: #EEEEEE;
  --NAVY_BLUE_modal: rgba(46, 47, 66, 0.4);
  --GREY: rgba(46, 47, 66, 0.7);
 }
-ul, ol{
-margin: 0;
-padding-left: 0;
-list-style: none;
-}
-button{
-  cursor: pointer;
-}
-address{
-  font-style: normal;
-}
-a{
-  color: currentColor;
-  text-decoration: none;
-}
-section{
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.container{
-  width: 100%;
-  max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
                       /* HEADER-LOGO */
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -57,13 +33,13 @@ color: var(--IRIS);
   text-decoration: none
 }
 .studio{
-color: #2e2f42 ;
+color: var(--NAVY_BLUE) ;
 }
 .list{
   list-style: none
 }
 .foot-studio{
- color:  #f4f4fd;
+ color:  var(--CLOUD);
 }
                        /* HEADER-MENU */
 .header-link{
@@ -76,10 +52,10 @@ letter-spacing: 0.02em;
 color: var(--NAVY_BLUE);
 }
 .header-link:hover{
-  color: #404bbf;
+  color: var(--OCEAN);
 }
 .header-link:focus{
-  color: #404bbf;
+  color:var(--OCEAN);
 }
 .header-studia{
   color: var(--OCEAN);
@@ -99,7 +75,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-color: #FFFFFF;
+color: var(--WHITTE);
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: uppercase;
@@ -118,7 +94,7 @@ align-items: center;
 text-align: center;
 justify-content: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--WHITTE);
 cursor: pointer;
 background: var(--IRIS);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -191,7 +167,7 @@ color: var(--SLATE);
   margin-top: 20px;
 }
 footer{
-  background: #2e2f42;
+  background: var(--NAVY_BLUE);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -223,14 +199,14 @@ border: none;
 }
 .menu-btn:hover,
 .menu-btn:focus{
-color: #FFFFFF;
+color: var(--WHITTE);
   background-color: var(--OCEAN);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .menu-items{
   width: 370px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
+background: var(--WHITTE);
+border: 1px solid var(--BORDER_COLOR);
 }
 .menu-title{
 font-weight: 500;
