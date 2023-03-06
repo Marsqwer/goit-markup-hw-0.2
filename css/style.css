@@ -19,6 +19,9 @@ color: var(--SLATE);
 ul, ol{
 list-style: none;
 }
+a{
+  text-decoration:none
+}
 
                       /* HEADER-LOGO */
 .logo{
@@ -48,9 +51,7 @@ color: var(--NAVY_BLUE) ;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
-/* NAVY BLUE */
 color: var(--NAVY_BLUE);
 }
 .header-link:hover{
