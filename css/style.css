@@ -1,7 +1,6 @@
 body{
 font-family: 'Roboto', sans-serif;
 color: var(--SLATE);
-margin: 0;
 }
 :root{
  --IRIS:#4D5AE5;
@@ -16,6 +15,9 @@ margin: 0;
  --BORDER_COLOR: #EEEEEE;
  --NAVY_BLUE_modal: rgba(46, 47, 66, 0.4);
  --GREY: rgba(46, 47, 66, 0.7);
+}
+ul, ol{
+list-style: none;
 }
 
                       /* HEADER-LOGO */
